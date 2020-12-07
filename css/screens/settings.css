@@ -16,3 +16,11 @@
 .settings__setting-column:last-child {
   opacity: 0.5;
 }
+
+.settings__setting-column {
+  transition: all 0.3s ease-in-out;
+}
+
+.settings__setting-column:hover {
+  transform: translateY(-5px);
+}
